@@ -17,11 +17,11 @@
 
 .technologies-heading {
     color: #8C61D6;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .technologies-description {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 20px;
 }
 
@@ -38,8 +38,12 @@
     margin: 20px 0;
 }
 
+.technologies-html-icon, .technologies-css-icon, .technologies-sass-icon, .technologies-javascript-icon, .technologies-react-icon, .technologies-git-icon{
+    height: 4em;
+}
+
 .technologies-name {
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 15px;
     letter-spacing: 1px;
 }
@@ -75,8 +79,20 @@
         margin: 40px 0;
     }
 
+    .technologies-html-icon, .technologies-css-icon, .technologies-sass-icon, .technologies-javascript-icon, .technologies-react-icon, .technologies-git-icon{
+        height: 12em;
+    }
+
+    .technologies-name {
+        font-size: 20px;
+    }
+
     .technologies-name {
         font-size: 24px;
         margin-top: 15px;
+    }
+
+    .technologies-heading {
+        font-size: 36px;
     }
 }

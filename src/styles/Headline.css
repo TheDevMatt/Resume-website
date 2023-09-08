@@ -9,7 +9,7 @@
 }
 
 .headline-welcome{
-    font-size: 30px;
+    font-size: 20px;
     color: #8C61D6;
     letter-spacing: 1px;
 }
@@ -20,14 +20,15 @@
     letter-spacing: 1px;
 }
 .headline-button{
-    padding: 15px 30px;
+    padding: 10px 10px;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
     color: white;
     border: 0px solid #fff;
     border-radius: 30px;
     cursor: pointer;
+    text-align: center;
     background-image: linear-gradient(to right, #E040FB, #00BCD4);
 }
   
@@ -47,6 +48,8 @@
 
     .headline-button{
         width: 170px;
+        padding: 15px 30px;
+        font-size: 16px;
     }
 }
 

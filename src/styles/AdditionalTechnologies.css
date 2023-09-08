@@ -7,9 +7,15 @@
 
 .additionalTechnologies-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     list-style: none;
     margin-top: 20px;
+}
+
+.additionalTechnologies-icon{
+font-size: 16px !important;
 }
 
 .additionalTechnologies-list > li {
@@ -17,8 +23,9 @@
     flex-basis: 100%;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .additionalTechnologies-list > li > span {
@@ -27,12 +34,12 @@
 
 .additionalTechnologies-heading {
     color: #8C61D6;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 20px;
 }
 
 .additionalTechnologies-container p {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 20px;
 }
 
@@ -40,6 +47,9 @@
 @media (min-width: 768px) {
     .additionalTechnologies-container {
         text-align: start;
+    }
+    .additionalTechnologies-icon{
+        font-size: 36px !important;
     }
 
     .additionalTechnologies-list > li {
