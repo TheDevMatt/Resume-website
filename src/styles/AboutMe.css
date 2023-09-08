@@ -1,10 +1,11 @@
 .aboutMe-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 30px;
     color: white;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .aboutMe {
@@ -16,14 +17,14 @@
 }
 
 .aboutMe-imageOfMe {
-    width: 100%;
-    max-width: 500px;
+    max-width: 450px;
     height: auto;
     margin-top: 20px;
 }
 
 .aboutMe-description h2 {
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 24px;
     letter-spacing: 1px;
@@ -31,8 +32,8 @@
 }
 
 .aboutMe-description p {
-    font-size: 18px;
-    margin-top: 15px;
+    font-size: 12px;
+    margin: 20px 0;
 }
 
 .aboutMe-description p > span {
@@ -62,6 +63,5 @@
 
     .aboutMe-description p {
         font-size: 22px;
-        margin-top: 20px;
     }
 }

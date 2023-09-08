@@ -55,7 +55,7 @@
 
 @media(min-width: 1200px){
  .headline-container{
-    background-image: url('../Images/Headline-Background-type1.png');
+    background-image: url('../Images//Headline-Background-type2.png');
     background-size: cover;
     background-repeat: no-repeat;
  }
@@ -63,7 +63,7 @@
 
 @media(min-width: 1600px){
     .headline-container{
-        background-image: url('../Images//Headline-Background-type2.png');
+        background-image: url('../Images/Headline-Background-type1.png');
         background-size: cover;
         background-repeat: no-repeat;
     }
