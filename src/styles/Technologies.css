@@ -1,0 +1,82 @@
+.technologies-container {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0;
+    color: white;
+    text-align: center;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.technologies-heading {
+    color: #8C61D6;
+    font-size: 24px;
+}
+
+.technologies-description {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.technologies-html,
+.technologies-css,
+.technologies-javascript,
+.technologies-react,
+.technologies-git,
+.technologies-sass {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.technologies-name {
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+    .technologies-container {
+        text-align: start;
+        margin: 120px 0;
+    }
+
+    .technologies {
+        margin-top: 60px;
+    }
+
+    .technologies-heading {
+        font-size: 36px;
+    }
+
+    .technologies-description {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .technologies-html,
+    .technologies-css,
+    .technologies-javascript,
+    .technologies-react,
+    .technologies-git,
+    .technologies-sass {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 33%;
+        margin: 40px 0;
+    }
+
+    .technologies-name {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+}

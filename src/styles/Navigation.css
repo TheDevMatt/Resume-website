@@ -1,0 +1,88 @@
+.navigation {
+    padding: 30px 0;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.navigation-logo {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation-option {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.navigation-socials {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navigation-social {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.linkedIn,
+.GitHub {
+    transition: all 0.3s;
+}
+
+.linkedIn:hover {
+    color: #0E77B5;
+}
+
+.GitHub:hover {
+    color: #2B3137;
+}
+
+.navigation-home, .navigation-projects, .navigation-about-me, .navigation-my-resume{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navigation-home:hover, .navigation-projects:hover, .navigation-about-me:hover, .navigation-my-resume:hover{
+    border-bottom: 1px solid #fff;
+}
+
+@media (min-width: 768px) {
+    .navigation-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1450px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .navigation-menu {
+        flex-direction: row;
+    }
+
+    .navigation-option {
+        margin: 0 20px;
+    }
+
+    .navigation-socials{
+        margin-top:0;
+    }
+}

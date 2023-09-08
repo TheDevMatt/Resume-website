@@ -1,0 +1,14 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+.app-container{
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 200px;
+  background-color: #0E1724;
+  overflow: hidden;
+}

@@ -1,0 +1,26 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    border-bottom: 1px solid white;
+}
+.footer-email{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-email:hover{
+    border-bottom: 1px solid white;
+}
+
+.footer-contact{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    padding: 30px 0;
+}
