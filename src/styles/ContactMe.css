@@ -1,17 +1,24 @@
 .contactMe-container {
     color: white;
     margin-top: 30px;
-    text-align: center;
-    padding: 20px;
-}
+    text-align: center;}
 
+.contactMe-container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .contactMe-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 60px;
-    border-top: 2px solid white;
+}
+
+.contactMe-description{
+    display: flex;
+    width: 350px;
 }
 
 .contactMe-form p {
@@ -20,7 +27,6 @@
 
 .contactMe-form input,
 .contactMe-form textarea {
-    width: 100%;
     font-size: 18px;
     padding: 10px;
     margin: 10px 0;
@@ -48,9 +54,19 @@
         text-align: start;
     }
 
+    .contactMe-container h1{
+      justify-content: flex-start;
+    }
+
     .contactMe-form {
         font-size: 22px;
         margin-top: 90px;
+        border-top: 2px solid white;
+    }
+
+    .contactMe-description{
+        justify-content: center;
+        width: 100%;
     }
 
     .contactMe-form p {

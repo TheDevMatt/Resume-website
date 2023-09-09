@@ -49,7 +49,7 @@ const ContactMe = () => {
         <div className='contactMe-container'>
             <h1>Contact Me</h1>
             <div className='contactMe-form'>
-            <p>Do not hesitate to contact me! If you would like to get in touch with me, below you can find the form. </p>
+            <p className='contactMe-description'>Do not hesitate to contact me! If you would like to get in touch with me, below you can find the form. </p>
             <form onSubmit={handleSubmit}>
                 <p>Name</p>
                 <input type='text' name='name' id='input-name' value={formData.name} onChange={handleChange} />
