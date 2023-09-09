@@ -1,6 +1,8 @@
 .additionalTechnologies-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
     text-align: center;
 }
@@ -45,11 +47,19 @@ font-size: 16px !important;
 
 
 @media (min-width: 768px) {
+
     .additionalTechnologies-container {
-        text-align: start;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
+
     .additionalTechnologies-icon{
         font-size: 36px !important;
+    }
+    
+    .additionalTechnologies-list{
+        margin: 0 auto;
     }
 
     .additionalTechnologies-list > li {

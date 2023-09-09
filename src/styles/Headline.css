@@ -1,6 +1,8 @@
 .headline-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     min-height: 50vh;
     margin: 120px 0;
@@ -20,33 +22,41 @@
     letter-spacing: 1px;
 }
 .headline-button{
-    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
     margin-top: 20px;
     font-size: 14px;
-    width: 100%;
+    width: 100px;
+    /* width: 100%; */
     color: white;
     border: 0px solid #fff;
     border-radius: 30px;
     cursor: pointer;
-    text-align: center;
+    /* text-align: center; */
     background-image: linear-gradient(to right, #E040FB, #00BCD4);
 }
   
 @media (min-width: 768px){
     .headline-container{
-        text-align: start;
-        max-width: 1500px;
+        align-items: flex-start;
+        /* justify-content: flex-start; */
+        /* max-width: 1500px; */
     }
 
     .headline-welcome{
+        text-align: left;
         font-size: 50px;
     }
 
     .headline-description{
+        text-align: left;
         font-size: 22px;
     }
 
     .headline-button{
+        justify-content: center;
         width: 170px;
         padding: 15px 30px;
         font-size: 16px;
@@ -55,15 +65,15 @@
 
 @media(min-width: 1200px){
  .headline-container{
-    background-image: url('../Images//Headline-Background-type2.png');
     background-size: cover;
     background-repeat: no-repeat;
+    justify-content: flex-start;
  }
 }
 
 @media(min-width: 1600px){
     .headline-container{
-        background-image: url('../Images/Headline-Background-type1.png');
+        background-image: url('../Images/Headline-Background.png');
         background-size: cover;
         background-repeat: no-repeat;
     }

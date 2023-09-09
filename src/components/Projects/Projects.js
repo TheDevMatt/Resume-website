@@ -10,7 +10,7 @@ return(
         <div className='element'>
         <h2>#1 Recipe App</h2>
         <p>A recipe app allows users to search for recipes based on dish name or type of meal.</p>
-        <img src={ImageOfPC} alt='PC'/>
+        <img src={ImageOfPC} alt='PC' className='projects-image'/>
         </div>
         </section>
     </div>

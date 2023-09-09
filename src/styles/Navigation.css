@@ -5,10 +5,10 @@
 .navigation-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
-    padding: 0 20px;
 }
 
 .navigation-logo {
@@ -70,9 +70,8 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        max-width: 1450px;
+        max-width: 1800px;
         margin: 0 auto;
-        padding: 0 20px;
     }
 
     .navigation-menu {

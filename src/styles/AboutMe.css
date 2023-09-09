@@ -17,7 +17,7 @@
 }
 
 .aboutMe-imageOfMe {
-    max-width: 450px;
+    max-width: 350px;
     height: auto;
     margin-top: 20px;
 }
@@ -32,7 +32,7 @@
 }
 
 .aboutMe-description p {
-    font-size: 12px;
+    font-size: 16px;
     margin: 20px 0;
 }
 

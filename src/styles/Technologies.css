@@ -11,16 +11,22 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
-    border: 2px solid white;
-    border-radius: 20px;
+    /* border: 2px solid white; */
+    /* border-radius: 20px; */
 }
 
 .technologies-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #8C61D6;
     font-size: 20px;
 }
 
 .technologies-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     margin-top: 20px;
 }
@@ -55,14 +61,18 @@
     }
 
     .technologies {
-        margin-top: 60px;
-    }
+    margin-top: 60px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
 
     .technologies-heading {
+        justify-content: flex-start;
         font-size: 36px;
     }
 
     .technologies-description {
+        justify-content: flex-start;
         font-size: 22px;
         margin-top: 40px;
     }
