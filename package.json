@@ -1,7 +1,6 @@
 {
   "name": "resume-website",
   "version": "0.1.0",
-  "homepage": "https://TheDevMatt.github.io/Resume-website",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
